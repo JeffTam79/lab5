@@ -10,20 +10,24 @@
 
     <style>
         /* CSS Rules go here */
-        
-        body{
+
+        body {
             font-family: Arial, sans-serif;
         }
 
-        #experience_form input[type="text"], input[type="email"] {
+        #experience_form input[type="text"],
+        input[type="email"] {
             width: 300px;
         }
 
-        #experience_form input, #experience_form textarea {
+        #experience_form input,
+        #experience_form textarea {
             padding: 10px;
         }
 
-        #experience_form input, #experience_form textarea, #experience_form label {
+        #experience_form input,
+        #experience_form textarea,
+        #experience_form label {
             display: block;
             margin-bottom: 10 px;
         }
@@ -51,10 +55,10 @@
             text-align: center;
         }
 
-        .container{
+        .container {
             margin-top: 0;
             margin-right: auto;
-            margin-bottom:50px;
+            margin-bottom: 50px;
             margin-left: auto;
 
             max-width: 960px;
@@ -73,45 +77,53 @@
 </head>
 
 <body>
-    <header>
-        <img src="img/panoramic-laguna-brava-2000.jpeg" width="960" height="236" alt="Panoramic view of Laguna Brava lake" title="Laguna Brava">
+    <header class="container">
+        <img src="img/panoramic-laguna-brava-2000.jpeg" width="960" height="236"
+            alt="Panoramic view of Laguna Brava lake" title="Laguna Brava">
         <h1>Explore Laguna Brava</h1>
     </header>
 
-    <main>
-        <article>
-            <img src="img/kayaking.jpeg" width="400" height="400" alt="View of the lake with kayak on the horizon">
-            <h2>Kayaking</h2>
-            <p>
-                Cross the four kilometers in a kayak guided by a local guide. <strong>This guided visit is
-                    physically demanding, and we recommend it for only those in excellent physical
-                    condition.</strong>
-            </p>
-            <ul>
-                <li><span class="bold">Duration:</span>3 hours approx.</li>
-                <li><span class="bold">Price:</span>$40 USD</li>
-                <li><span class="bold">Minimum:</span>1 pax</li>
-            </ul>
+    <main class="container">
+        <article class="activity-row">
+            <div class="activity-col">
+                <img src="img/kayaking.jpeg" width="400" height="400" alt="View of the lake with kayak on the horizon">
+            </div>
+            <div class="activity-col">
+                <h2>Kayaking</h2>
+                <p>
+                    Cross the four kilometers in a kayak guided by a local guide. <strong>This guided visit is
+                        physically demanding, and we recommend it for only those in excellent physical
+                        condition.</strong>
+                </p>
+                <ul>
+                    <li><span class="bold">Duration: </span>3 hours approx.</li>
+                    <li><span class="bold">Price: </span>$40 USD</li>
+                    <li><span class="bold">Minimum: </span>1 pax</li>
+                </ul>
             </div>
         </article>
 
-        <article>
-            <h2>Boat Rides</h2>
-            <p>
-                Board a rowing boat that takes to around the most beautiful parts of the lake. This guided visit
-                does not require physical effort.
-            </p>
-            <ul>
-                <li><span class="bold">Duration:</span>3 hours approx.</li>
-                <li><span class="bold">Price:</span>$40 USD</li>
-                <li><span class="bold">Minimum:</span>4 pax</li>
-            </ul>
-            <img src="img/boat-ride.jpeg" width="400" height="400" alt="View of the lake with a kayak on the horizon">
+        <article class="activity-row">
+            <div class="activity-col">
+                <h2>Boat Rides</h2>
+                <p>
+                    Board a rowing boat that takes to around the most beautiful parts of the lake. This guided visit
+                    does not require physical effort.
+                </p>
+                <ul>
+                    <li><span class="bold">Duration: </span>3 hours approx.</li>
+                    <li><span class="bold">Price: </span>$40 USD</li>
+                    <li><span class="bold">Minimum: </span>4 pax</li>
+                </ul>
+            </div>
+            <div class="activity-col"></div>
+                <img src="img/boat-ride.jpeg" width="400" height="400" alt="View of the lake with a kayak on the horizon">
+            </div>
         </article>
 
     </main>
 
-    <aside>
+    <aside class="container">
         <section>
             <h2>Have you traveled to Laguna Brava?</h2>
             <p>
