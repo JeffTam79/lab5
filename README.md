@@ -384,4 +384,8 @@
     </tbody>
 </table>
 
+---
+
+## The Box Model
+![An image of the box model](img/box-model.png)
 
