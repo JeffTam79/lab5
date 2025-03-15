@@ -87,7 +87,13 @@
         <tr>
             <td><code>font-weight</code></td>
             <td>Determines the thickness of the font.</td>
-            <td><pre><code>strong { font-weight: bold; }</code></pre></td>
+            <td>
+                <pre><code>
+    h1 { 
+        font-weight: bold; 
+    }
+</code></pre>
+            </td>
         </tr>
         <tr>
             <td><code>font-style</code></td>
