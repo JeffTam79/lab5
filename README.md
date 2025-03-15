@@ -76,7 +76,13 @@
         <tr>
             <td><code>font-size</code></td>
             <td>Defines the size of the font.</td>
-            <td><pre><code>h1 { font-size: 24px; }</code></pre></td>
+            <td>
+                <pre><code>
+                    h1 { 
+                        font-size: 24px; 
+                    }
+                </code></pre>
+            </td>
         </tr>
         <tr>
             <td><code>font-weight</code></td>
