@@ -186,92 +186,200 @@
         <tr>
             <td><code>margin-right</code></td>
             <td>Sets the right margin of an element.</td>
-            <td><pre><code>div { margin-right: 10px; }</code></pre></td>
+            <td>
+                <pre><code>
+    div { 
+        margin-right: 10px; 
+    }
+</code></pre>
+            </td>
         </tr>
         <tr>
             <td><code>margin-bottom</code></td>
             <td>Sets the bottom margin of an element.</td>
-            <td><pre><code>div { margin-bottom: 10px; }</code></pre></td>
+            <td>
+                <pre><code>
+    div { 
+        margin-bottom: 10px; 
+    }
+</code></pre>
+            </td>
         </tr>
         <tr>
             <td><code>margin-left</code></td>
             <td>Sets the left margin of an element.</td>
-            <td><pre><code>div { margin-left: 10px; }</code></pre></td>
+            <td>
+                <pre><code>
+    div { 
+        margin-left: 10px; 
+    }
+</code></pre>
+            </td>
         </tr>
         <tr>
             <td><code>max-width</code></td>
             <td>Sets the maximum width an element can be.</td>
-            <td><pre><code>div { max-width: 600px; }</code></pre></td>
+            <td>
+                <pre><code>
+    div { 
+        max-width: 600px; 
+    }
+</code></pre>
+            </td>
         </tr>
         <tr>
             <td><code>padding</code></td>
             <td>Sets the space between an element’s content and border.</td>
-            <td><pre><code>div { padding: 10px; }</code></pre></td>
+            <td>
+                <pre><code>
+    div { 
+        padding: 10px; 
+    }
+</code></pre>
+            </td>
         </tr>
         <tr>
             <td><code>margin</code></td>
             <td>Shorthand property for setting margins.</td>
-            <td><pre><code>div { margin: 10px 20px; }</code></pre></td>
+            <td>
+                <pre><code>
+    div { 
+        margin: 10px 20px; 
+    }
+</code></pre>
+            </td>
         </tr>
         <tr>
             <td><code>display: flex</code></td>
             <td>Defines a flex container.</td>
-            <td><pre><code>div { display: flex; }</code></pre></td>
+            <td>
+                <pre><code>
+    div { 
+        display: flex; 
+    }
+</code></pre>
+            </td>
         </tr>
         <tr>
             <td><code>border-bottom</code></td>
             <td>Sets the bottom border of an element.</td>
-            <td><pre><code>h1 { border-bottom: 2px solid black; }</code></pre></td>
+            <td>
+                <pre><code>
+    h1 { 
+        border-bottom: 2px solid black; 
+    }
+</code></pre>
+            </td>
         </tr>
         <tr>
             <td><code>border-top</code></td>
             <td>Sets the top border of an element.</td>
-            <td><pre><code>h1 { border-top: 2px solid black; }</code></pre></td>
+            <td>
+                <pre><code>
+    h1 { 
+        border-top: 2px solid black; 
+    }
+</code></pre> 
+            </td>
         </tr>
         <tr>
             <td><code>border-radius</code></td>
             <td>Rounds the corners of an element.</td>
-            <td><pre><code>div { border-radius: 10px; }</code></pre></td>
+            <td>
+                <pre><code>
+    div { 
+        border-radius: 10px; 
+    }
+</code></pre>
+            </td>
         </tr>
         <tr>
             <td><code>background-color</code></td>
             <td>Sets the background color of an element.</td>
-            <td><pre><code>body { background-color: lightblue; }</code></pre></td>
+            <td>
+                <pre><code>
+    body { 
+        background-color: lightblue; 
+    }
+</code></pre>
+            </td>
         </tr>
         <tr>
             <td><code>display</code></td>
             <td>Determines how an element is displayed.</td>
-            <td><pre><code>div { display: inline-block; }</code></pre></td>
+            <td>
+                <pre><code>
+    div { 
+        display: inline-block; 
+    }
+</code></pre>
+            </td>
         </tr>
         <tr>
             <td><code>list-style-type</code></td>
             <td>Defines the appearance of list bullets or numbers.</td>
-            <td><pre><code>ul { list-style-type: square; }</code></pre></td>
+            <td>
+                <pre><code>
+    ul { 
+        list-style-type: square; 
+    }
+</code></pre>
+            </td>
         </tr>
         <tr>
             <td><code>pseudo-classes</code></td>
             <td>Used to define a special state of an element.</td>
-            <td><pre><code>a:hover { color: red; }</code></pre></td>
+            <td>
+                <pre><code>
+    a:hover { 
+        color: red; 
+    }
+</code></pre>
+            </td>
         </tr>
         <tr>
             <td><code>nav a:link</code></td>
             <td>Styles unvisited links in a navigation bar.</td>
-            <td><pre><code>nav a:link { color: blue; }</code></pre></td>
+            <td>
+                <pre><code>
+    nav a:link { 
+        color: blue; 
+    }
+</code></pre>
+            </td>
         </tr>
         <tr>
             <td><code>nav a:visited</code></td>
             <td>Styles visited links in a navigation bar.</td>
-            <td><pre><code>nav a:visited { color: purple; }</code></pre></td>
+            <td>
+                <pre><code>
+    nav a:visited { 
+        color: purple; 
+    }
+</code></pre>  
+            </td>
         </tr>
         <tr>
             <td><code>nav a:hover</code></td>
             <td>Changes the style when the mouse hovers over a link.</td>
-            <td><pre><code>nav a:hover { color: red; }</code></pre></td>
+            <td>
+                <pre><code>
+    nav a:hover { 
+        color: red; 
+    }
+</code></pre>
+            </td>
         </tr>
         <tr>
             <td><code>nav a:active</code></td>
             <td>Styles the link when it is clicked.</td>
-            <td><pre><code>nav a:active { color: green; }</code></pre></td>
+            <td>
+                <pre><code>
+    nav a:active { 
+        color: green; 
+    }
+</code></pre>
+            </td>
         </tr>
     </tbody>
 </table>
