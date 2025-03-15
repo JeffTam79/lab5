@@ -73,6 +73,69 @@
         .activity-col {
             padding: 10px;
         }
+
+        main {
+            border-width: 1px;
+            border-style: solid;
+            border-width: grey;
+        }
+
+        /*
+        main {
+            border: 1px solid grey;
+        }
+        */
+
+        main {
+            border-top: 1px solid grey;
+            border-bottom: 1px solid grey;
+        }
+
+        .activity-col img {
+            border-radius: 60%;
+        }
+
+        nav a {
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav li {
+            list-style-type: none;
+        }
+
+        nav ul {
+            background-color: black;
+            margin: 0;
+            padding: 0;
+            text-align: right;
+        }
+
+        nav li {
+            list-style-type: none;
+            display: inline-block;
+            padding: 10px;
+        }
+
+        /* unvisited link */
+        nav a:link {
+            color: #DCDCDC;
+        }
+
+        /* visited link */
+        nav a:visited {
+            color: #DCDCDC;
+        }
+
+        /* mouse over link */
+        nav a:hover {
+            color: white;
+        }
+
+        /* selected link */
+        nav a:active {
+            color: white;
+        }
     </style>
 </head>
 
@@ -80,7 +143,19 @@
     <header class="container">
         <img src="img/panoramic-laguna-brava-2000.jpeg" width="960" height="236"
             alt="Panoramic view of Laguna Brava lake" title="Laguna Brava">
-        <h1>Explore Laguna Brava</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#activities">Things to Do</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div>
+            <h1>Explore Laguna Brava</h1>
+        </div>
     </header>
 
     <main class="container">
