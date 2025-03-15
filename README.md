@@ -78,10 +78,10 @@
             <td>Defines the size of the font.</td>
             <td>
                 <pre><code>
-                    h1 { 
-                        font-size: 24px; 
-                    }
-                </code></pre>
+    h1 { 
+        font-size: 24px; 
+    }
+</code></pre>
             </td>
         </tr>
         <tr>
