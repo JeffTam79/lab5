@@ -636,4 +636,4 @@ ul {
 ```
 
 ### The Result
-![alt text](img/)
+![alt text](img/jsfiddleresult-myversion.png)
