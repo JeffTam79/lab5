@@ -98,42 +98,90 @@
         <tr>
             <td><code>font-style</code></td>
             <td>Defines the style of the font (normal, italic, oblique).</td>
-            <td><pre><code>em { font-style: italic; }</code></pre></td>
+            <td>
+                <pre><code>
+    h1 { 
+        font-style: italic; 
+    }
+</code></pre>
+            </td>
         </tr>
         <tr>
             <td><code>font-variant</code></td>
             <td>Controls text appearance, such as small caps.</td>
-            <td><pre><code>p { font-variant: small-caps; }</code></pre></td>
+            <td>
+                <pre><code>
+    h1 { 
+        font-variant: small-caps; 
+    }
+</code></pre>
+            </td>
         </tr>
         <tr>
             <td><code>font</code></td>
             <td>Shorthand for setting font-related properties.</td>
-            <td><pre><code>p { font: italic bold 16px Arial, sans-serif; }</code></pre></td>
+            <td>
+                <pre><code>
+    h1 { 
+        font: italic bold 16px Arial, sans-serif; 
+    }
+</code></pre>
+            </td>
         </tr>
         <tr>
             <td><code>text-align</code></td>
             <td>Aligns text to left, right, center, or justify.</td>
-            <td><pre><code>h1 { text-align: center; }</code></pre></td>
+            <td>
+                <pre><code>
+    h1 { 
+        text-align: center; 
+    }
+</code></pre>
+            </td>
         </tr>
         <tr>
             <td><code>text-decoration</code></td>
             <td>Controls text underline, overline, and line-through.</td>
-            <td><pre><code>a { text-decoration: none; }</code></pre></td>
+            <td>
+                <pre><code>
+    h1 { 
+        text-decoration: none; 
+    }
+</code></pre>
+            </td>
         </tr>
         <tr>
             <td><code>text-transform</code></td>
             <td>Changes the capitalization of text.</td>
-            <td><pre><code>p { text-transform: uppercase; }</code></pre></td>
+            <td>
+                <pre><code>
+    h1 { 
+        text-transform: uppercase; 
+    }
+</code></pre>
+            </td>
         </tr>
         <tr>
             <td><code>text-indent</code></td>
             <td>Indents the first line of a paragraph.</td>
-            <td><pre><code>p { text-indent: 20px; }</code></pre></td>
+            <td>
+                <pre><code>
+    p { 
+        text-indent: 20px; 
+    }
+</code></pre>
+            </td>
         </tr>
         <tr>
             <td><code>margin-top</code></td>
             <td>Sets the top margin of an element.</td>
-            <td><pre><code>div { margin-top: 10px; }</code></pre></td>
+            <td>
+                <pre><code>
+    div { 
+        margin-top: 10px; 
+    }
+</code></pre>
+            </td>
         </tr>
         <tr>
             <td><code>margin-right</code></td>
