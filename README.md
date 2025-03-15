@@ -38,8 +38,9 @@
 31. Nav a:visited
 32. Nav a:hover
 33. Nav a:active
+34. The Box Model
 
-### HTML Tag Cheat Sheet
+### CSS Cheat Sheet
 <table>
     <thead>
         <tr>
@@ -389,3 +390,112 @@
 ## The Box Model
 ![An image of the box model](img/box-model.png)
 
+## Example of CSS in jsfiddle
+
+**Fiddle:** https://jsfiddle.net/15mky8hr/
+
+**Completed Fiddle:** https://jsfiddle.net/joseortiz/dft983h2/
+
+
+
+### The original code:
+```
+<!-- Link to CSS Examples COMPLETED version:
+https://jsfiddle.net/joseortiz/dft983h2/
+-->
+
+<!doctype html>
+<html>
+    <head>
+        <title>Selectors Example</title>    
+    </head>
+
+    <body>
+        <section>
+            <article>
+                This is the first article.
+            </article>
+            <article>
+                This is the second article.
+                <ul>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                </ul>
+            </article>
+            </section>
+
+        <section>
+            <article>
+                This is the third article.
+            </article>
+            <article>
+                This is the fourth article.
+            </article>
+        </section>
+
+  </body>
+</html>
+
+```
+
+### The modified code with CSS:
+```
+<html>
+
+    <head>
+        <title>Selectors Example</title>
+    </head>
+
+    <body>
+        <section>
+            <article class="box" id="main_box">
+                This is the first article.
+            </article>
+            <article class="box">
+                This is the second article.
+                <ul>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                </ul>
+            </article>
+        </section>
+
+
+        <section>
+            <article>
+                This is the third article.
+            </article>
+            <article>
+                This is the fourth article.
+            </article>
+        </section>
+  </body>
+</html>
+```
+
+*The CSS Code:*
+```
+/* Type selector */
+article {
+    color: blue;
+    margin: 10px;
+}
+
+/* Class selector */
+.box {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* ID selector */
+#main_box {
+    background-color: red;
+}
+
+/* Using combinators:
+   Use a space to specify a descendant selector 
+*/
+.box li {
+    color: purple;
+}
+```
