@@ -5,7 +5,7 @@
 
 ### The Content Covered:
 1. Style Element 
-2.  Font Family
+2. Font Family
 3. Font Size 
 4. Font Weight 
 5. Font-Style 
