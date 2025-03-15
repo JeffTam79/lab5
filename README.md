@@ -40,172 +40,37 @@
 33. Nav a:active
 
 ### HTML Tag Cheat Sheet
-<table>
-    <thead>
-        <tr>
-            <th>Syntax</th>
-            <th>Description</th>
-            <th>Example</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>
-                <pre><code>&lt;style&gt;&lt;/style&gt;</code></pre>
-            </td>
-            <td>A tag used to define CSS styles within an HTML document.</td>
-            <td>
-                <pre><code>&lt;style&gt;
-    body {
-        background-color: lightgray;
-    }
-&lt;/style&gt;</code></pre>
-            </td>
-        </tr>
-        <tr>
-            <td><code>font-family</code></td>
-            <td>Specifies the font of the text.</td>
-            <td><pre><code>p { font-family: Arial, sans-serif; }</code></pre></td>
-        </tr>
-        <tr>
-            <td><code>font-size</code></td>
-            <td>Defines the size of the font.</td>
-            <td><pre><code>h1 { font-size: 24px; }</code></pre></td>
-        </tr>
-        <tr>
-            <td><code>font-weight</code></td>
-            <td>Determines the thickness of the font.</td>
-            <td><pre><code>strong { font-weight: bold; }</code></pre></td>
-        </tr>
-        <tr>
-            <td><code>font-style</code></td>
-            <td>Defines the style of the font (normal, italic, oblique).</td>
-            <td><pre><code>em { font-style: italic; }</code></pre></td>
-        </tr>
-        <tr>
-            <td><code>font-variant</code></td>
-            <td>Controls text appearance, such as small caps.</td>
-            <td><pre><code>p { font-variant: small-caps; }</code></pre></td>
-        </tr>
-        <tr>
-            <td><code>font</code></td>
-            <td>Shorthand for setting font-related properties.</td>
-            <td><pre><code>p { font: italic bold 16px Arial, sans-serif; }</code></pre></td>
-        </tr>
-        <tr>
-            <td><code>text-align</code></td>
-            <td>Aligns text to left, right, center, or justify.</td>
-            <td><pre><code>h1 { text-align: center; }</code></pre></td>
-        </tr>
-        <tr>
-            <td><code>text-decoration</code></td>
-            <td>Controls text underline, overline, and line-through.</td>
-            <td><pre><code>a { text-decoration: none; }</code></pre></td>
-        </tr>
-        <tr>
-            <td><code>text-transform</code></td>
-            <td>Changes the capitalization of text.</td>
-            <td><pre><code>p { text-transform: uppercase; }</code></pre></td>
-        </tr>
-        <tr>
-            <td><code>text-indent</code></td>
-            <td>Indents the first line of a paragraph.</td>
-            <td><pre><code>p { text-indent: 20px; }</code></pre></td>
-        </tr>
-        <tr>
-            <td><code>margin-top</code></td>
-            <td>Sets the top margin of an element.</td>
-            <td><pre><code>div { margin-top: 10px; }</code></pre></td>
-        </tr>
-        <tr>
-            <td><code>margin-right</code></td>
-            <td>Sets the right margin of an element.</td>
-            <td><pre><code>div { margin-right: 10px; }</code></pre></td>
-        </tr>
-        <tr>
-            <td><code>margin-bottom</code></td>
-            <td>Sets the bottom margin of an element.</td>
-            <td><pre><code>div { margin-bottom: 10px; }</code></pre></td>
-        </tr>
-        <tr>
-            <td><code>margin-left</code></td>
-            <td>Sets the left margin of an element.</td>
-            <td><pre><code>div { margin-left: 10px; }</code></pre></td>
-        </tr>
-        <tr>
-            <td><code>max-width</code></td>
-            <td>Sets the maximum width an element can be.</td>
-            <td><pre><code>div { max-width: 600px; }</code></pre></td>
-        </tr>
-        <tr>
-            <td><code>padding</code></td>
-            <td>Sets the space between an element’s content and border.</td>
-            <td><pre><code>div { padding: 10px; }</code></pre></td>
-        </tr>
-        <tr>
-            <td><code>margin</code></td>
-            <td>Shorthand property for setting margins.</td>
-            <td><pre><code>div { margin: 10px 20px; }</code></pre></td>
-        </tr>
-        <tr>
-            <td><code>display: flex</code></td>
-            <td>Defines a flex container.</td>
-            <td><pre><code>div { display: flex; }</code></pre></td>
-        </tr>
-        <tr>
-            <td><code>border-bottom</code></td>
-            <td>Sets the bottom border of an element.</td>
-            <td><pre><code>h1 { border-bottom: 2px solid black; }</code></pre></td>
-        </tr>
-        <tr>
-            <td><code>border-top</code></td>
-            <td>Sets the top border of an element.</td>
-            <td><pre><code>h1 { border-top: 2px solid black; }</code></pre></td>
-        </tr>
-        <tr>
-            <td><code>border-radius</code></td>
-            <td>Rounds the corners of an element.</td>
-            <td><pre><code>div { border-radius: 10px; }</code></pre></td>
-        </tr>
-        <tr>
-            <td><code>background-color</code></td>
-            <td>Sets the background color of an element.</td>
-            <td><pre><code>body { background-color: lightblue; }</code></pre></td>
-        </tr>
-        <tr>
-            <td><code>display</code></td>
-            <td>Determines how an element is displayed.</td>
-            <td><pre><code>div { display: inline-block; }</code></pre></td>
-        </tr>
-        <tr>
-            <td><code>list-style-type</code></td>
-            <td>Defines the appearance of list bullets or numbers.</td>
-            <td><pre><code>ul { list-style-type: square; }</code></pre></td>
-        </tr>
-        <tr>
-            <td><code>pseudo-classes</code></td>
-            <td>Used to define a special state of an element.</td>
-            <td><pre><code>a:hover { color: red; }</code></pre></td>
-        </tr>
-        <tr>
-            <td><code>nav a:link</code></td>
-            <td>Styles unvisited links in a navigation bar.</td>
-            <td><pre><code>nav a:link { color: blue; }</code></pre></td>
-        </tr>
-        <tr>
-            <td><code>nav a:visited</code></td>
-            <td>Styles visited links in a navigation bar.</td>
-            <td><pre><code>nav a:visited { color: purple; }</code></pre></td>
-        </tr>
-        <tr>
-            <td><code>nav a:hover</code></td>
-            <td>Changes the style when the mouse hovers over a link.</td>
-            <td><pre><code>nav a:hover { color: red; }</code></pre></td>
-        </tr>
-        <tr>
-            <td><code>nav a:active</code></td>
-            <td>Styles the link when it is clicked.</td>
-            <td><pre><code>nav a:active { color: green; }</code></pre></td>
-        </tr>
-    </tbody>
-</table>
+| Syntax | Description | Example |
+|--------|------------|---------|
+| `<style></style>` | A tag used to define CSS styles within an HTML document. | ```css<br>body {<br>    background-color: lightgray;<br>}<br>``` |
+| `font-family` | Specifies the font of the text. | ```css<br>p { font-family: Arial, sans-serif; }<br>``` |
+| `font-size` | Defines the size of the font. | ```css<br>h1 { font-size: 24px; }<br>``` |
+| `font-weight` | Determines the thickness of the font. | ```css<br>strong { font-weight: bold; }<br>``` |
+| `font-style` | Defines the style of the font (normal, italic, oblique). | ```css<br>em { font-style: italic; }<br>``` |
+| `font-variant` | Controls text appearance, such as small caps. | ```css<br>p { font-variant: small-caps; }<br>``` |
+| `font` | Shorthand for setting font-related properties. | ```css<br>p { font: italic bold 16px Arial, sans-serif; }<br>``` |
+| `text-align` | Aligns text to left, right, center, or justify. | ```css<br>h1 { text-align: center; }<br>``` |
+| `text-decoration` | Controls text underline, overline, and line-through. | ```css<br>a { text-decoration: none; }<br>``` |
+| `text-transform` | Changes the capitalization of text. | ```css<br>p { text-transform: uppercase; }<br>``` |
+| `text-indent` | Indents the first line of a paragraph. | ```css<br>p { text-indent: 20px; }<br>``` |
+| `margin-top` | Sets the top margin of an element. | ```css<br>div { margin-top: 10px; }<br>``` |
+| `margin-right` | Sets the right margin of an element. | ```css<br>div { margin-right: 10px; }<br>``` |
+| `margin-bottom` | Sets the bottom margin of an element. | ```css<br>div { margin-bottom: 10px; }<br>``` |
+| `margin-left` | Sets the left margin of an element. | ```css<br>div { margin-left: 10px; }<br>``` |
+| `max-width` | Sets the maximum width an element can be. | ```css<br>div { max-width: 600px; }<br>``` |
+| `padding` | Sets the space between an element’s content and border. | ```css<br>div { padding: 10px; }<br>``` |
+| `margin` | Shorthand property for setting margins. | ```css<br>div { margin: 10px 20px; }<br>``` |
+| `display: flex` | Defines a flex container. | ```css<br>div { display: flex; }<br>``` |
+| `border-bottom` | Sets the bottom border of an element. | ```css<br>h1 { border-bottom: 2px solid black; }<br>``` |
+| `border-top` | Sets the top border of an element. | ```css<br>h1 { border-top: 2px solid black; }<br>``` |
+| `border-radius` | Rounds the corners of an element. | ```css<br>div { border-radius: 10px; }<br>``` |
+| `background-color` | Sets the background color of an element. | ```css<br>body { background-color: lightblue; }<br>``` |
+| `display` | Determines how an element is displayed. | ```css<br>div { display: inline-block; }<br>``` |
+| `list-style-type` | Defines the appearance of list bullets or numbers. | ```css<br>ul { list-style-type: square; }<br>``` |
+| `pseudo-classes` | Used to define a special state of an element. | ```css<br>a:hover { color: red; }<br>``` |
+| `nav a:link` | Styles unvisited links in a navigation bar. | ```css<br>nav a:link { color: blue; }<br>``` |
+| `nav a:visited` | Styles visited links in a navigation bar. | ```css<br>nav a:visited { color: purple; }<br>``` |
+| `nav a:hover` | Changes the style when the mouse hovers over a link. | ```css<br>nav a:hover { color: red; }<br>``` |
+| `nav a:active` | Styles the link when it is clicked. | ```css<br>nav a:active { color: green; }<br>``` |
+
+
