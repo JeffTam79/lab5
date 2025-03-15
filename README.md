@@ -501,7 +501,7 @@ article {
 ```
 
 ### The Result
-![alt text](img/jsfiddleresult.png)
+![The result of the HTML and CSS Code](img/jsfiddleresult.png)
 
 ---
 
