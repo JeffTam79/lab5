@@ -438,7 +438,7 @@ https://jsfiddle.net/joseortiz/dft983h2/
 
 ```
 
-### The Modified Code with CSS:
+### The Modified HTML Code:
 ```
 <html>
 
@@ -502,3 +502,138 @@ article {
 
 ### The Result
 ![alt text](img/jsfiddleresult.png)
+
+---
+
+## Example of CSS in jsfiddle (My Version)
+
+### The Original Code:
+```
+<!-- Link to CSS Examples COMPLETED version:
+https://jsfiddle.net/joseortiz/dft983h2/
+-->
+
+<!doctype html>
+<html>
+    <head>
+        <title>Selectors Example</title>    
+    </head>
+
+    <body>
+        <section>
+            <article>
+                This is the first article.
+            </article>
+            <article>
+                This is the second article.
+                <ul>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                </ul>
+            </article>
+            </section>
+
+        <section>
+            <article>
+                This is the third article.
+            </article>
+            <article>
+                This is the fourth article.
+            </article>
+        </section>
+
+  </body>
+</html>
+
+```
+
+### The Modified HTML Code (MY VERSION):
+```
+<!-- Link to CSS Examples COMPLETED version:
+https://jsfiddle.net/joseortiz/dft983h2/
+-->
+
+<!doctype html>
+<html>
+
+    <head>
+        <title>Selectors Example</title>
+    </head>
+
+    <body>
+        <section>
+            <article id="redbox">
+                This is the <em>first</em> article.
+            </article>
+            <article class="box">
+                This is the second article.
+                <ul>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                </ul>
+            </article>
+        </section>
+
+        <section>
+            <article class="box">
+                This is the third article.
+            </article>
+            <article>
+                This is the fourth article.
+            </article>
+        </section>
+
+    </body>
+</html>
+
+```
+
+### The CSS Code (MY VERSION):
+```
+/* CSS Rule */
+/* Selector */
+/* Type Selector */
+article {
+    color: blue; /* Declaration */
+    /*
+    border-width: 1px;
+    border-style: solid; 
+    border-color: black; 
+    */
+    /* border: 1px solid black */
+}
+
+body {
+    background: lavenderblush;
+}
+
+li {
+    color: green;
+}
+
+/*
+ul {
+    color: red;
+}
+*/
+
+/* Class Selector */
+.box {
+    border: 3px double black;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* ID Selector */
+#redbox {
+    background-color: lightblue;
+}
+
+/* Combinator Selector  */
+.box li {
+    color: orange;
+}
+```
+
+### The Result
+![alt text](img/)
