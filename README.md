@@ -398,7 +398,7 @@
 
 
 
-### The original code:
+### The Original Code:
 ```
 <!-- Link to CSS Examples COMPLETED version:
 https://jsfiddle.net/joseortiz/dft983h2/
@@ -438,7 +438,7 @@ https://jsfiddle.net/joseortiz/dft983h2/
 
 ```
 
-### The modified code with CSS:
+### The Modified Code with CSS:
 ```
 <html>
 
@@ -473,7 +473,7 @@ https://jsfiddle.net/joseortiz/dft983h2/
 </html>
 ```
 
-*The CSS Code:*
+### The CSS Code:
 ```
 /* Type selector */
 article {
@@ -499,3 +499,6 @@ article {
     color: purple;
 }
 ```
+
+### The Result
+![alt text](img/jsfiddleresult.png)
