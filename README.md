@@ -66,8 +66,8 @@
             <td><code>font-family</code></td>
             <td>Specifies the font of the text.</td>
             <td><pre><code>p { 
-                font-family: Arial, sans-serif; 
-                }</code></pre></td>
+        font-family: Arial, sans-serif; 
+    }</code></pre></td>
         </tr>
         <tr>
             <td><code>font-size</code></td>
